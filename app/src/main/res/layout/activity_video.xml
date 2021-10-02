@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".VideoActivity">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/play"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="88dp"-->
+<!--        android:text="Play Video" />-->
+
+    <RadioGroup
+        android:id="@+id/layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/videofirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uu Kaget"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:id="@+id/videokedua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Tsukihime OP" />
+
+        <RadioButton
+            android:id="@+id/videoketiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STAY"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+    </RadioGroup>
+
+</LinearLayout>
